@@ -1,0 +1,190 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/Users/Air/.meteor/packages/meteor-tool/.1.3.2_4.l0gh0o++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react-addons-pure-render-mixin' ]
+2 info using npm@2.14.22
+3 info using node@v0.10.43
+4 verbose install initial load of /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/package.json
+5 verbose installManyTop reading scoped package data from /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/lodash/package.json
+6 verbose installManyTop reading scoped package data from /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/react/package.json
+7 verbose installManyTop reading scoped package data from /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/react-dom/package.json
+8 verbose installManyTop reading scoped package data from /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/react-mixin/package.json
+9 verbose readDependencies loading dependencies from /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/package.json
+10 silly cache add args [ 'react-addons-pure-render-mixin', null ]
+11 verbose cache add spec react-addons-pure-render-mixin
+12 silly cache add parsed spec { raw: 'react-addons-pure-render-mixin',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'react-addons-pure-render-mixin',
+12 silly cache add   rawSpec: '',
+12 silly cache add   spec: 'latest',
+12 silly cache add   type: 'tag' }
+13 silly addNamed react-addons-pure-render-mixin@latest
+14 verbose addNamed "latest" is being treated as a dist-tag for react-addons-pure-render-mixin
+15 info addNameTag [ 'react-addons-pure-render-mixin', 'latest' ]
+16 silly mapToRegistry name react-addons-pure-render-mixin
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/react-addons-pure-render-mixin
+20 verbose addNameTag registry:https://registry.npmjs.org/react-addons-pure-render-mixin not in flight; fetching
+21 verbose request uri https://registry.npmjs.org/react-addons-pure-render-mixin
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 08:05:19
+24 verbose request id e83de40493cd8a87
+25 verbose etag "6669AU1WXW2X2LPIWV2NKMLCC"
+26 http request GET https://registry.npmjs.org/react-addons-pure-render-mixin
+27 http 200 https://registry.npmjs.org/react-addons-pure-render-mixin
+28 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 verbose headers   etag: '"T3R2UQQ1BHAO59I7JE4PEJU2"',
+28 verbose headers   'content-type': 'application/json',
+28 verbose headers   'content-encoding': 'gzip',
+28 verbose headers   'cache-control': 'max-age=300',
+28 verbose headers   'content-length': '3563',
+28 verbose headers   'accept-ranges': 'bytes',
+28 verbose headers   date: 'Sat, 30 Apr 2016 15:05:19 GMT',
+28 verbose headers   via: '1.1 varnish',
+28 verbose headers   age: '0',
+28 verbose headers   connection: 'keep-alive',
+28 verbose headers   'x-served-by': 'cache-sjc3133-SJC',
+28 verbose headers   'x-cache': 'HIT',
+28 verbose headers   'x-cache-hits': '1',
+28 verbose headers   'x-timer': 'S1462028719.343726,VS0,VE85',
+28 verbose headers   vary: 'Accept-Encoding' }
+29 silly get cb [ 200,
+29 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 silly get     etag: '"T3R2UQQ1BHAO59I7JE4PEJU2"',
+29 silly get     'content-type': 'application/json',
+29 silly get     'content-encoding': 'gzip',
+29 silly get     'cache-control': 'max-age=300',
+29 silly get     'content-length': '3563',
+29 silly get     'accept-ranges': 'bytes',
+29 silly get     date: 'Sat, 30 Apr 2016 15:05:19 GMT',
+29 silly get     via: '1.1 varnish',
+29 silly get     age: '0',
+29 silly get     connection: 'keep-alive',
+29 silly get     'x-served-by': 'cache-sjc3133-SJC',
+29 silly get     'x-cache': 'HIT',
+29 silly get     'x-cache-hits': '1',
+29 silly get     'x-timer': 'S1462028719.343726,VS0,VE85',
+29 silly get     vary: 'Accept-Encoding' } ]
+30 verbose get saving react-addons-pure-render-mixin to /Users/Air/.npm/registry.npmjs.org/react-addons-pure-render-mixin/.cache.json
+31 verbose correctMkdir /Users/Air/.npm correctMkdir not in flight; initializing
+32 silly addNameTag next cb for react-addons-pure-render-mixin with tag latest
+33 silly addNamed react-addons-pure-render-mixin@15.0.2
+34 verbose addNamed "15.0.2" is a plain semver version for react-addons-pure-render-mixin
+35 silly mapToRegistry name react-addons-pure-render-mixin
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry uri https://registry.npmjs.org/react-addons-pure-render-mixin
+39 verbose addRemoteTarball https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.0.2.tgz not in flight; adding
+40 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.0.2.tgz',
+40 verbose addRemoteTarball   'b7731c5cc7f21214d68a78c84f40df3aefdf462f' ]
+41 info retry fetch attempt 1 at 08:05:19
+42 info attempt registry request try #1 at 08:05:19
+43 http fetch GET https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.0.2.tgz
+44 http fetch 200 https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.0.2.tgz
+45 silly fetchAndShaCheck shasum b7731c5cc7f21214d68a78c84f40df3aefdf462f
+46 verbose addTmpTarball /var/folders/75/7b6g9bzs313c5nm9sm_kb5z80000gn/T/npm-28129-cdfddb5c/registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.0.2.tgz not in flight; adding
+47 verbose addTmpTarball already have metadata; skipping unpack for react-addons-pure-render-mixin@15.0.2
+48 verbose correctMkdir /Users/Air/.npm correctMkdir not in flight; initializing
+49 silly cache afterAdd react-addons-pure-render-mixin@15.0.2
+50 verbose afterAdd /Users/Air/.npm/react-addons-pure-render-mixin/15.0.2/package/package.json not in flight; writing
+51 verbose correctMkdir /Users/Air/.npm correctMkdir not in flight; initializing
+52 verbose afterAdd /Users/Air/.npm/react-addons-pure-render-mixin/15.0.2/package/package.json written
+53 silly install resolved [ { name: 'react-addons-pure-render-mixin',
+53 silly install resolved     version: '15.0.2',
+53 silly install resolved     main: 'index.js',
+53 silly install resolved     repository:
+53 silly install resolved      { type: 'git',
+53 silly install resolved        url: 'git+https://github.com/facebook/react.git' },
+53 silly install resolved     keywords: [ 'react', 'react-addon' ],
+53 silly install resolved     license: 'BSD-3-Clause',
+53 silly install resolved     dependencies: {},
+53 silly install resolved     peerDependencies: { react: '^15.0.2' },
+53 silly install resolved     description: 'This package provides the React PureRenderMixin add-on.',
+53 silly install resolved     bugs: { url: 'https://github.com/facebook/react/issues' },
+53 silly install resolved     homepage: 'https://github.com/facebook/react#readme',
+53 silly install resolved     _id: 'react-addons-pure-render-mixin@15.0.2',
+53 silly install resolved     _shasum: 'b7731c5cc7f21214d68a78c84f40df3aefdf462f',
+53 silly install resolved     _resolved: 'https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.0.2.tgz',
+53 silly install resolved     _from: 'react-addons-pure-render-mixin@latest',
+53 silly install resolved     scripts: {},
+53 silly install resolved     _npmVersion: '2.15.1',
+53 silly install resolved     _nodeVersion: '4.4.3',
+53 silly install resolved     _npmUser: { name: 'zpao', email: 'paul@oshannessy.com' },
+53 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+53 silly install resolved     dist:
+53 silly install resolved      { shasum: 'b7731c5cc7f21214d68a78c84f40df3aefdf462f',
+53 silly install resolved        tarball: 'https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.0.2.tgz' },
+53 silly install resolved     _npmOperationalInternal:
+53 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+53 silly install resolved        tmp: 'tmp/react-addons-pure-render-mixin-15.0.2.tgz_1461976686917_0.2681200075894594' },
+53 silly install resolved     directories: {} } ]
+54 info install react-addons-pure-render-mixin@15.0.2 into /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact
+55 info installOne react-addons-pure-render-mixin@15.0.2
+56 verbose installOne of react-addons-pure-render-mixin to /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact not in flight; installing
+57 verbose correctMkdir /Users/Air/.npm/_locks correctMkdir not in flight; initializing
+58 verbose lock using /Users/Air/.npm/_locks/react-addons-pure-render-57ca299decacaca3.lock for /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/react-addons-pure-render-mixin
+59 silly install write writing react-addons-pure-render-mixin 15.0.2 to /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/react-addons-pure-render-mixin
+60 verbose unbuild node_modules/react-addons-pure-render-mixin
+61 silly gentlyRm /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/react-addons-pure-render-mixin is being purged from base /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact
+62 verbose gentlyRm don't care about contents; nuking /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/react-addons-pure-render-mixin
+63 verbose tar unpack /Users/Air/.npm/react-addons-pure-render-mixin/15.0.2/package.tgz
+64 verbose tar unpacking to /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/react-addons-pure-render-mixin
+65 silly gentlyRm /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/react-addons-pure-render-mixin is being purged
+66 verbose gentlyRm don't care about contents; nuking /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/react-addons-pure-render-mixin
+67 silly gunzTarPerm modes [ '755', '644' ]
+68 silly gunzTarPerm extractEntry package.json
+69 silly gunzTarPerm extractEntry README.md
+70 silly gunzTarPerm extractEntry LICENSE
+71 silly gunzTarPerm extractEntry index.js
+72 silly gunzTarPerm extractEntry PATENTS
+73 verbose write writing to /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/react-addons-pure-render-mixin/package.json
+74 info preinstall react-addons-pure-render-mixin@15.0.2
+75 verbose readDependencies loading dependencies from /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/react-addons-pure-render-mixin/package.json
+76 silly prepareForInstallMany adding react@^15.0.2 from react-addons-pure-render-mixin peerDependencies
+77 warn peerDependencies The peer dependency react@^15.0.2 included from react-addons-pure-render-mixin will no
+78 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+79 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+80 verbose readDependencies loading dependencies from /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/react-addons-pure-render-mixin/package.json
+81 silly install resolved []
+82 verbose about to build /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/react-addons-pure-render-mixin
+83 info build /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/react-addons-pure-render-mixin
+84 info linkStuff react-addons-pure-render-mixin@15.0.2
+85 silly linkStuff react-addons-pure-render-mixin@15.0.2 has /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules as its parent node_modules
+86 verbose linkBins react-addons-pure-render-mixin@15.0.2
+87 verbose linkMans react-addons-pure-render-mixin@15.0.2
+88 verbose rebuildBundles react-addons-pure-render-mixin@15.0.2
+89 info install react-addons-pure-render-mixin@15.0.2
+90 info postinstall react-addons-pure-render-mixin@15.0.2
+91 verbose readDependencies loading dependencies from /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/package.json
+92 verbose targetResolver reading package data from /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/lodash/package.json
+93 verbose targetResolver reading package data from /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/react/package.json
+94 verbose targetResolver reading package data from /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/react-addons-pure-render-mixin/package.json
+95 verbose targetResolver reading package data from /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/react-dom/package.json
+96 verbose targetResolver reading package data from /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/react-mixin/package.json
+97 verbose already installed skipping react@^15.0.2 /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact
+98 silly install resolved []
+99 verbose unlock done using /Users/Air/.npm/_locks/react-addons-pure-render-57ca299decacaca3.lock for /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/node_modules/react-addons-pure-render-mixin
+100 verbose validateInstall loading /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact/package.json for validation
+101 verbose stack Error: The package react@15.0.1 does not satisfy its siblings' peerDependencies requirements!
+101 verbose stack     at /Users/Air/.meteor/packages/meteor-tool/.1.3.2_4.l0gh0o++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/lib/install.js:125:32
+101 verbose stack     at /Users/Air/.meteor/packages/meteor-tool/.1.3.2_4.l0gh0o++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/lib/install.js:268:7
+101 verbose stack     at /Users/Air/.meteor/packages/meteor-tool/.1.3.2_4.l0gh0o++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+101 verbose stack     at /Users/Air/.meteor/packages/meteor-tool/.1.3.2_4.l0gh0o++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+101 verbose stack     at cb (/Users/Air/.meteor/packages/meteor-tool/.1.3.2_4.l0gh0o++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+101 verbose stack     at /Users/Air/.meteor/packages/meteor-tool/.1.3.2_4.l0gh0o++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+101 verbose stack     at cb (/Users/Air/.meteor/packages/meteor-tool/.1.3.2_4.l0gh0o++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+101 verbose stack     at /Users/Air/.meteor/packages/meteor-tool/.1.3.2_4.l0gh0o++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+101 verbose stack     at cb (/Users/Air/.meteor/packages/meteor-tool/.1.3.2_4.l0gh0o++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+101 verbose stack     at /Users/Air/.meteor/packages/meteor-tool/.1.3.2_4.l0gh0o++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+102 verbose cwd /Users/Air/Documents/Programming/differential/hackday_projects/reactivereact
+103 error Darwin 15.4.0
+104 error argv "node" "/Users/Air/.meteor/packages/meteor-tool/.1.3.2_4.l0gh0o++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin/npm" "install" "react-addons-pure-render-mixin"
+105 error node v0.10.43
+106 error npm  v2.14.22
+107 error code EPEERINVALID
+108 error peerinvalid The package react@15.0.1 does not satisfy its siblings' peerDependencies requirements!
+108 error peerinvalid Peer react-addons-pure-render-mixin@15.0.2 wants react@^15.0.2
+108 error peerinvalid Peer react-dom@15.0.1 wants react@^15.0.1
+109 verbose exit [ 1, true ]
